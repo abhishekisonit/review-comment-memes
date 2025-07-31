@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+lib/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# Certificate files (except mock-cert.pem)
+*.pem
+!mock-cert.pem
+
+# Probot specific
+.webhook-secret
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary folders
+tmp/
+temp/
